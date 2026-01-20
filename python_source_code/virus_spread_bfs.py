@@ -83,11 +83,12 @@ def generate_task_for_bfs_virus(question_number, num_calls = 30, matrix_size = 5
     return result
     
 # Call
-folder_path = "C:\\Users\\akalai\\Desktop\\SoftwareProject-HayberKresovic-main (1)\\virus_bfs_xml"
+folder_path = "YOUR_PATHWAY_HERE"
 clear_variable_declarations(folder_path)
 
 num_calls = 30
 question_number = 1
 
 result = generate_task_for_bfs_virus(question_number, num_calls, matrix_size = 5)
+
 format_to_xml(folder_path, result, question_number, num_calls)
