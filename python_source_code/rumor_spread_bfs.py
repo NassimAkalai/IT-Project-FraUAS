@@ -129,7 +129,7 @@ def generate_task_for_bfs_rumor(question_number, num_calls=30, matrix_size=5, gr
     return result
 
 # Call
-folder_path = "C:\\Users\\akalai\\OneDrive - Drees & Sommer SE\\Desktop\\BFS_XML"
+folder_path = "YOUR_PATHWAY_HERE"
 graph_folder = os.path.join(folder_path, "graphs")
 clear_variable_declarations(folder_path)
 
@@ -138,3 +138,4 @@ question_number = 1
 
 result = generate_task_for_bfs_rumor(question_number, num_calls, matrix_size=5, graph_folder=graph_folder)
 format_to_xml(folder_path, result, question_number, num_calls)
+
