@@ -6,6 +6,8 @@ This project was part of the module IT-Project which was done in collaboration w
 
 Note: the scripts depend on specific helper classes, which cannot be included in this repository. One helper funcion is coded by myself which is included within the scripts. 
 
+© 2026 Prof. Jens Liebehenschel. All rights reserved. https://jensliebehenschel.github.io/ADLT/
+
 
 
 # Usage
